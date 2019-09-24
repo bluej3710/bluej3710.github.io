@@ -1,1 +1,75 @@
-Hello World
+<!DOCTYPE html>
+<!--making a comment if needed-->
+<html>
+<head>
+<title> Making My 2nd Webpage & Learning HTML </title>    
+</head>
+<body id="Top">
+<article>
+  <h1 class="Head"><a href="index.html">How to create a Webpage & Using HTML</a></h1>
+<p id="paragraph"> Its easy and fun and I find it easier then Javascript</p>
+ <!--This is different then changen the background color marking a text/highlight-->
+  <p><mark>This was an image I used to form basic format and body for a webpage</mark></p>
+</article>
+  <button><a href="https://www.google.com/"target="_blank">Click Me! ;)</a></button>
+<img src="https://www.wikihow.com/Create-a-Simple-Web-Page-with-HTML#/Image:4082-20-1.jpg ">
+<header>
+<h2 class=Head1>Links</h2>
+</header>
+<section>
+<nav>
+<ul>
+<li><a href="#">How to create a page</a></li>
+<li><a href="#">Where to find?</a></li>
+<li><a href="#">Examples of Webpages</a></li>
+</ul>
+</nav>
+<p>Here is a link to wikiHow:
+<a href="http://www.wikihow.com"target="_blank">wikiHow</a></p>
+<a href="mailto:coderbc7@gmail.com">Email Me</a>
+<div>
+<!--This Text is Emphasized & Strong-->
+  <p><i><strong><a href="TodayDate9_23_19.html">Today Date 9/23/19</a></strong></i></p>
+</div>
+<span>  
+<p><strong>This will be strong</strong></p>
+</span>
+</section>
+<footer>
+<p>This is where your Footer goes</p>
+</footer>
+<a href="#top">Back to Top</a>
+</body>    
+</html>
+<!--Adding Calculator-->
+<div class="mycalc">
+	<form name="calculator" id="calculator">
+		<input type="text" name="inputwindow" id="inputwindow">
+		<div>
+			<input type="button" id="one" value="1" onclick="takeValue(document.getElementById('one').value)">
+			<input type="button" id="two" value="2" onclick="takeValue(document.getElementById('two').value)">
+			<input type="button" id="three" value="3" onclick="takeValue(document.getElementById('three').value)">
+			<input type="button" id="plus" value="+" onclick="takeValue(document.getElementById('plus').value)">
+	    </div>
+	    <div>
+			<input type="button" id="four" value="4" onclick="takeValue(document.getElementById('four').value)">
+			<input type="button" id="five" value="5" onclick="takeValue(document.getElementById('five').value)">
+			<input type="button" id="six" value="6" onclick="takeValue(document.getElementById('six').value)">
+			<input type="button" id="minus" value="-" onclick="takeValue(document.getElementById('minus').value)">
+		</div>
+		<div>
+			<input type="button" id="seven" value="7" onclick="takeValue(document.getElementById('seven').value)">
+			<input type="button" id="eight" value="8" onclick="takeValue(document.getElementById('eight').value)">
+			<input type="button" id="nine" value="9" onclick="takeValue(document.getElementById('nine').value)">
+			<input type="button" id="by" value="*" onclick="takeValue(document.getElementById('by').value)">
+	    </div>
+	    <div>
+			<input type="button" id="zero" value="0" onclick="takeValue(document.getElementById('zero').value)">
+			<input type="button" id="decimal" value="." onclick="takeValue(document.getElementById('decimal').value)">
+			<input type="button" id="devide" value="/" onclick="takeValue(document.getElementById('devide').value)">
+			<input type="button" id="percent" value="%" onclick="takeValue(document.getElementById('percent').value)">	
+	    </div>
+	    <div class="results">
+			<input type="button" id="equal" value="=" onclick="calculateResult()">
+			<button type="button" id="clear" value="" onclick="clearInput(document.getElementById('clear').value)">Clear</button>
+    </div>
