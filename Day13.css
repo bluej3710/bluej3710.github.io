@@ -1,17 +1,18 @@
-/*make a comment if needed
-*/
+/*make a comment if needed */
 body {
     style="background-image:url(bgimage.jpg)"
   }
   .Head{
     color:red;
+    background-image: url("https://www.fjords.com/wp-content/uploads/2018/09/DSC_1761-2000x1200.jpg");
+  }
   }
   #paragraph{
     color:green;
   }
   /* Why is this not changen color?*/
   a:ClickMe!;){
-    color:yellow;
+    color:black;
   }
   .Head1{
   color:turquoise
@@ -76,6 +77,8 @@ body {
   
   h1 {
       font-weight: 300;
+      font-family:Exo;
+      font-weight:bold;
   }
   
   h3 {
