@@ -1,0 +1,192 @@
+/* Right Side Men */
+.ssb00 {
+    z-index:999999;
+    position:fixed;
+    width:100px;
+    height:100%;
+    top:100px;
+    opacity:0;
+  }
+  
+  #menLogo {
+    z-index:99999;
+    position:fixed; 
+    top:0; 
+    left:8px;
+    height:100px;
+    width:100px;
+    /* background image or logo website goes here */
+    background-image:url(LOGOURLGOESHERE);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    font-size:30px;
+    text-align:center;
+    padding-top:28px;
+    color:#fff;
+  }
+  .ssb00_inWrap {
+    height:200px;
+    position:relative; top:calc(50vh - 150px);
+  }
+  .m00 {
+    height:33px;
+  }
+  .m00 div {position:absolute;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  .m01 {
+    text-align:left;
+    right:0;
+    width:16px;
+  }
+  .m01:before {content:'•';}
+  .m02 {
+    left:200px;
+    width:calc(100% - 26px);
+    opacity:0;
+    text-align:right;
+  }
+  .ssb00_inWrap:hover .m02 {
+    left:0px;
+    opacity:1;
+  }
+  
+  .ssb00 a {color:#fff;}
+  .ssb00 a:hover {color:#6ccef5;}
+  .active .m02 {
+    left:0px;
+    opacity:1;
+  }
+  .active a {color: #1b75ba;}
+  
+  
+  /* Left Side Men 
+  .ssb00 {
+    z-index:999999;
+    position:fixed;
+    width:100px;
+    height:100%;
+    top:100px;
+    opacity:0;
+  }
+  
+  #menLogo {
+    z-index:99999;
+    position:fixed; 
+    top:0; 
+    left:8px;
+    height:100px;
+    width:100px;
+    background-image:url(http://www.joeltbennett.com/wp-test/wp-content/uploads/2017/05/Logo-300x244.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+  }
+  .ssb00_inWrap {
+    height:200px;
+    position:relative; top:calc(50vh - 150px);
+  }
+  .m00 {
+    height:33px;
+  }
+  .m00 div {position:absolute;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+  }
+  .m01 {
+    text-align:right;
+    left:0;
+    width:16px;
+  }
+  .m01:before {content:'•';}
+  .m02 {
+    right:200px;
+    width:calc(100% - 26px);
+    opacity:0;
+  }
+  
+  .ssb00 a {color:#fff;}
+  .ssb00 a:hover {color:#6ccef5;}
+  .active .m02 {
+    right:0px;
+    opacity:1;
+  }
+  .active a {color: #1b75ba;}
+  */
+  
+  /* Top Men */
+  
+  .ssb01 {
+    background:rgba(255,255,255,.9);
+    border-bottom:1px solid #f0f0f0;
+    height:100px;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  .ssb01 nav {
+    font-weight:bold;
+    width:560px;
+    height:30px;
+    position:absolute;
+    right:0;
+    bottom:10px;
+    text-align:left;
+  }
+  
+  .ssb01 a {
+    color:#1b75ba;
+    text-decoration:none;
+    margin:0px 15px;
+  }
+  .ssb01 a:hover {color:#6ccef5;}
+  .ssb01 a:active {color:#fff;}
+  
+  
+  .ssb01__info {
+    position:absolute;
+    height:45px;
+    padding:14px 20px;
+    left:110px;
+    top:15px;
+    color:#666;
+    opacity:1;
+  }
+  
+  /* Transition */
+  .trans {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+  }
+  
+  
+  
+  
+  
+  body {margin:0;padding:0;font-family:Lato;}
+  #testbox {margin:0;padding:0;}
+  .pg {
+    height:100vh;
+    width:100vw;
+    border-bottom:4px #000 solid;
+    color:#999;
+    text-align:center;
+  }
+  .page-1, .page-1a {background:#0e0f2a;}
+  .page-2, .page-2a {background:#0e1f0a;}
+  .page-3, .page-3a {background:#1f0a0a;}
+  .page-4, .page-4a {background:#112b32;}
+  .page-5, .page-5a {background:#120d26;}
+  .page-6 {background:#2a1c0e;}
