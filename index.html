@@ -2,12 +2,17 @@
 <!--making a comment if needed-->
 <html>
 <head>
-<title> Making My 2nd Webpage & Learning HTML </title>    
+ <!--Link needed to link to css when making in Vs Code-->
+<link href="Name of file goes here/Day15mywebsite.css">
+<title> Making My 2nd Webpage & Learning HTML </title>  
+ <!--where to put css link before the end of head--> 
 </head>
 <body id="Top">
+<background="bgimage.jpg">
+<img width="2000" height="1200" class="attachment-twentyseventeen-featured-image size-twentyseventeen-featured-image wp-post-image" alt="Mobile Phone Background - The Nærøyfjord" src="https://www.fjords.com/wp-content/uploads/2018/09/DSC_1761-2000x1200.jpg" sizes="100vw">
 <article>
   <h1 class="Head"><a href="index.html">How to create a Webpage & Using HTML</a></h1>
-<p id="paragraph"> Its easy and fun and I find it easier then Javascript</p>
+    <p id="paragraph"> Its easy and fun and I find it easier then Javascript</p>
  <!--This is different then changen the background color marking a text/highlight-->
   <p><mark>This was an image I used to form basic format and body for a webpage</mark></p>
 </article>
@@ -39,7 +44,13 @@
 <p>This is where your Footer goes</p>
 </footer>
 <a href="#top">Back to Top</a>
-</body>    
+<form>
+  <div>
+    <label for="bday">Enter your birthday:</label>
+    <input type="date" id="bday" name="bday">
+  </div>
+</form>
+ </body>    
 </html>
 <!--Adding Calculator-->
 <div class="mycalc">
@@ -72,4 +83,109 @@
 	    <div class="results">
 			<input type="button" id="equal" value="=" onclick="calculateResult()">
 			<button type="button" id="clear" value="" onclick="clearInput(document.getElementById('clear').value)">Clear</button>
-    </div>
+       </div>
+    
+    
+    <!--Example of Different List-->
+    <p><strong>Example of Different List</strong></p>
+    <ul>
+      <li>...</li>
+      <li>..</li>
+      <li>.</li>
+    </ul>
+     
+    <ol>
+      <li>...</li>
+      <li>..</li>
+      <li>.</li>
+    </ol>
+
+    
+    <!--Adding Table-->
+    <table>
+      <caption>List made by Me<i><strong><u> Jeremy G.</storng></i></caption></u>
+  <thead>
+    <tr>
+      <th scope="col" colspan="2">UnOrdered List</th>
+      <th scope="col">Order list</th>
+      <th scope="col">Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <strong class="book-title"><li>Don&#8217;t Make Me Think</li></strong>
+        <span class="text-offset">by Steve Krug</span>
+      </td>
+      <td class="item-stock">In Stock</td>
+      <td class="item-qty">1. ...</td>
+      <td class="item-price">$30.02</td>
+    </tr>
+    <tr>
+      <td>
+        <strong class="book-title"><li>A Project Guide to UX Design</strong></li>
+        <span class="text-offset">by Russ Unger &#38; Carolyn Chandler</span>
+      </td>
+      <td class="item-stock">In Stock</td>
+      <td class="item-qty"><ol><li>...</li></ol></td>
+      <td class="item-price">$52.94 <span class="text-offset item-multiple"></span></td>
+    </tr>
+    <tr>
+      <td>
+        <strong class="book-title"><li>Introducing HTML5</strong></li>
+        <span class="text-offset">by Bruce Lawson &#38; Remy Sharp</span>
+      </td>
+      <td class="item-stock">Out of Stock</td>
+      <td class="item-qty"><ol><li>...</li></ol></td>
+      <td class="item-price">$22.23</td>
+    </tr>
+    <tr>
+      <td>
+        <strong class="book-title"><li>Bulletproof Web Design</strong></li>
+        <span class="text-offset">by Dan Cederholm</span>
+      </td>
+      <td class="item-stock">In Stock</td>
+      <td class="item-qty"><ol><li>...</li></ol></td>
+      <td class="item-price">$30.17</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr class="text-offset">
+      <td colspan="3">Subtotal</td>
+      <td>$135.36</td>
+    </tr>
+    <tr class="text-offset">
+      <td colspan="3">Tax</td>
+      <td>$13.54</td>
+    </tr>
+    <tr>
+      <td colspan="3">Total</td>
+      <td>$148.90</td>
+    </tr>
+  </tfoot>
+</table>
+    
+    <!--Adding form Username & Password-->
+ <form>
+  <fieldset class="account-info">
+    <label>
+      Username
+      <input type="text" name="username">
+    </label>
+    <label>
+      Password
+      <input type="password" name="password">
+    </label>
+  </fieldset>
+  <fieldset class="account-action">
+    <input class="btn" type="submit" name="submit" value="Login">
+    <label>
+      <input type="checkbox" name="remember"> Stay signed in
+    </label>
+  </fieldset>
+</form>   
+    
+<!--Adding byme statement linking back to my webpage-->
+       <h5><small>by</small> <a href="https://bluej3710.github.io/Day13.html" target="_blank"> Jeremy G. ;)</a></h5>
+</div>
+
