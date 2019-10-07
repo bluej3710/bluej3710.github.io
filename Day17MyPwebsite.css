@@ -190,12 +190,7 @@
   .page-4, .page-4a {background:#112b32;}
   .page-5, .page-5a {background:#120d26;}
   .page-6 {background:#2a1c0e;}
-
-  /*Trying to make page 6 show at the bottom instead of the top */
-  #bottom6page {vertical-align:"bottom";}
-
-  /*Trying to make page 6 show at the bottom instead of the top */
-
+/*Trying to make page 6 show at the bottom instead of the top */
 .bottompage {position:absolute;
     bottom: 0px;}
     section {position:relative;}
