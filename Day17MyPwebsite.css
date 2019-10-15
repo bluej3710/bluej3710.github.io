@@ -213,3 +213,8 @@ p {font-family:Arial;
 
 li {list-style-type:none;  
 }
+
+table.center { margin-left:auto; margin-right:auto; }
+.centerTable {position:relative;
+
+}
